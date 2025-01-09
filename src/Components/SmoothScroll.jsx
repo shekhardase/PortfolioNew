@@ -4,6 +4,15 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import Card from "./Card";
 gsap.registerPlugin(ScrollTrigger);
 
+import i1 from "../assets/image1.png";
+import i2 from "../assets/image2.png";
+import i3 from "../assets/image3.png";
+import i4 from "../assets/image4.png";
+import i5 from "../assets/image5.png";
+import i6 from "../assets/image6.png";
+import i7 from "../assets/image7.png";
+import i8 from "../assets/image8.png";
+
 const SmoothScroll = () => {
     const containerRef = useRef(null);
 
@@ -42,56 +51,56 @@ const SmoothScroll = () => {
             description: "A simple frontend application to keep track of notes and tasks interactively.",
             buttonText: "Learn More",
             buttonLink: "https://github.com/shekhardase/Smart-Docs",
-            image: './src/assets/image1.png',
+            image: i1,
         },
         {
             title: "Animated Web Homepage",
             description: "A professional-level web homepage featuring GSAP animations for smooth and stunning visual effects.",
             buttonText: "View Details",
             buttonLink: "https://github.com/shekhardase/Presistent-Ventures",
-            image: './src/assets/image2.png',
+            image: i2,
         },
         {
             title: "AI-Powered Phishing Defense",
             description: "A machine learning project to detect fake websites and enhance cybersecurity.",
             buttonText: "Explore",
             buttonLink: "https://github.com/shekhardase/AI-Powered-Phishing-Defense-Cutting-Edge-Machine-Learning-Solutions",
-            image: './src/assets/image3.png',
+            image: i3,
         },
         {
             title: "React Tic-Tac-Toe",
             description: "A classic Tic-Tac-Toe game built using React with an interactive and responsive interface.",
             buttonText: "Check it Out",
             buttonLink: "https://github.com/shekhardase/React/tree/master/ReactPlaylist/tic-tac-toe",
-            image: './src/assets/image4.png',
+            image: i4,
         },
         {
             title: "Dungeon Hunter RPG Game",
             description: "An immersive RPG game built with HTML, CSS, and JavaScript featuring interactive gameplay and classic dungeon themes.",
             buttonText: "Check it Out",
             buttonLink: "https://github.com/shekhardase/FreeCodeCamp-Practice-Project/tree/main/RPG%20game",
-            image: './src/assets/image5.png',
+            image: i5,
         },
         {
             title: "Calorie Counter",
             description: "A user-friendly application to track daily calorie intake and maintain a healthy lifestyle.",
             buttonText: "Check it Out",
             buttonLink: "https://github.com/shekhardase/FreeCodeCamp-Practice-Project/tree/main/CalorieCounter",
-            image: './src/assets/image6.png',
+            image: i6,
         },
         {
             title: "Snake Game (C++)",
             description: "A classic Snake game implemented in pure C++, running directly in the terminal for a nostalgic gaming experience.",
             buttonText: "Check it Out",
             buttonLink: "https://github.com/shekhardase/SnakeGame",
-            image: './src/assets/image7.png'
+            image: i7,
         },
         {
             title: "Boilerplate Manager",
             description: "A web application to manage and store reusable code snippets, boosting productivity for developers",
             buttonText: "Check it Out",
             buttonLink: "https://github.com/shekhardase/BoilerPlateManager",
-            image: './src/assets/image8.png'
+            image: i8,
         },
     ];
 
@@ -119,3 +128,4 @@ const SmoothScroll = () => {
 };
 
 export default SmoothScroll;
+
