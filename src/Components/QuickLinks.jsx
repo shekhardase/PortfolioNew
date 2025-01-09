@@ -65,7 +65,7 @@ function QuickLinks() {
                     className="flex items-center justify-between px-4 py-2 bg-slate-400 hover:bg-slate-900 group-hover:text-white transition rounded-md shadow-md w-full md:w-auto group"
                 >
                     <a href="https://www.linkedin.com/in/shekhar2004/" className="text-black group-hover:text-white text-base md:text-lg">
-                        Linkdin
+                        Linkedin
                     </a>
                     <span className="ml-2 text-base md:text-lg group-hover:text-white">↗</span>
                 </div>
